@@ -38,7 +38,7 @@ public class App
         SparkConf conf = new SparkConf().setAppName("JavaSparkProject").setMaster("local[2]");
         JavaSparkContext sc = new JavaSparkContext(conf);
         sc.setLogLevel("WARN");
-        String path = "linescount.txt";
+        String path = "README.md";
  
         System.out.println("Trying to open: " + path);
  
